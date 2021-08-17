@@ -134,6 +134,7 @@ export default class ImageMapper extends Component {
 		if (this.props.active) {
 			this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 			//this.renderPrefilledAreas();
+			console.log("Hoveroff");
 		}
 
 		if (this.props.onMouseLeave) this.props.onMouseLeave(area, index, event);
