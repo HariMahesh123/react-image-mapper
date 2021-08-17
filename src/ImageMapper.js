@@ -144,6 +144,8 @@ export default class ImageMapper extends Component {
 		if (this.props.onClick) {
 			event.preventDefault();
 			this.props.onClick(area, index, event);
+			this.renderPrefilledAreas();
+			console.log("click");
 		}
 	}
 
